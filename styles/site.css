@@ -1,0 +1,267 @@
+body {
+  background-color: #29333d;
+  font-family: Trebuchet MS;
+
+}
+
+h1 {
+  color: LemonChiffon;
+  font-family: Trebuchet MS;
+  font-size: 50pt;
+  text-transform: capitalize;
+  text-align:center
+
+}
+
+h2 {
+  color: GreenYellow;
+  font-family: Trebuchet MS;
+  font-size: 23pt;
+  font-weight: bold;
+}
+h3 {
+  color: plum;
+  font-family: Trebuchet MS;
+}
+
+p {
+  color: HoneyDew;
+  font-family: Trebuchet MS;
+  font-size: 14pt;
+}
+
+li {
+  color: HoneyDew;
+  font-family: Trebuchet MS;
+  list-style-type: square;
+  font-size: 14pt;
+}
+em {
+  font-style: normal; /* removes italics */
+  font-weight: bold; /* adds bold */
+  color: plum;
+  font-family: Trebuchet MS;
+}
+
+p a{
+  color: plum;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 8px;
+  margin: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: #d2b2e0;
+  border-radius: 20px;
+  border: 3px dashed #29333d;
+  font-weight: bold;
+  font-size: 13pt;
+
+}
+nav{
+  text-align:center;
+}
+
+figure img{
+  border-radius: 5px;
+  border-radius: 12%;
+}
+dt {
+  color: plum;
+  font-size: 12pt;
+}
+dl {
+  color : HoneyDew;
+  font-size: 14pt;
+}
+a:link {
+  color: black;
+  font-family: Trebuchet MS;
+
+}
+strong{
+  color: plum;
+  font-size: 14pt;
+}
+
+
+figure figcaption{
+  font-size: 20pt;
+  color: GreenYellow;
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.class1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 70px;
+}
+.class2{
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-top: 0px;
+}
+.col1 {
+  display: flex;
+  flex-direction: column;
+}
+.icons_row{
+  display: flex;
+  flex-direction: row;
+}
+.sideleft{
+  float: left;
+  padding: 20px;
+  margin: 40px;
+}
+.sideright{
+  float: right;
+  padding: 20px;
+  margin: 40px;
+}
+figure a{
+  font-size: 10pt;
+  color: Lavender;
+  text-align:center;
+}
+.col_p{
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+  padding: 20px;
+
+}
+li a{
+  color: DarkSlateBlue;
+  background-color: #d2b2e0;
+  /* font-weight: bold; */
+}
+.sideleft_a{
+  float: left;
+  padding: 50px;
+  margin: 90px;
+}
+.sideright_a{
+  float: right;
+  padding: 50px;
+  margin: 90px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+.center_cv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center_200 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200%;
+}
+
+
+/* carousel design CSS */
+
+.hidden {
+  display: none
+}
+.carousel{
+  /* position: relative; */
+  height: 600px;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.mainbody_carousel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  width: auto;
+  justify-content: center;
+}
+.slide{
+  border-radius:10px;
+  margin: 10px;
+}
+
+.buttons{
+  color: white;
+  background-color: #008484;
+  font-variant: all-small-caps;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  /* padding: inherit; */
+  border-radius: 4px;
+  border: 2px solid #008484;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #008484;
+  background-color: white;
+  border: 2px solid #008484;
+}
+.dots{
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  position: relative;
+  cursor: pointer;
+  border: 2px transparent;
+
+  /* margin-left: 60px;
+  margin-right: 60px; */
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dots:hover{
+  /* color: #008484; */
+  background-color: transparent;
+  border: 10px solid #008484;
+}
+
+.dot_color{
+  background-color: HoneyDew;
+  border: 2px solid HoneyDew;
+}
+
+.left_button{
+  left: -40px;
+}
+
+.right_button{
+  right: -40px;
+}
+/* button {
+  color: white;
+  background-color: #008484;
+  font-variant: all-small-caps;
+  letter-spacing: 2px;
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: 2px solid #008484;
+  cursor: pointer;
+} */
