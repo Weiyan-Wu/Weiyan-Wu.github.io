@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+   <title>Weiyan Wu's Personal Webpage</title>
+   <link rel="stylesheet" type="text/css" href="styles/site.css"/>
+ </head>
+ <body>
+   <h1> Weiyan Wu</h1>
+   <nav>
+    <ul>
+      <li><a href = "index.html"> Home </a></li>
+      <li><a href = "professional_experience.html"> Professional Experience </a></li>
+      <li><a href = "projects.html"> Projects </a></li>
+      <li><a href = "accomplishments.html"> Accomplishments </a></li>
+      <li><a href = "cv.html"> CV </a></li>
+    </ul>
+  </nav>
+  <div class="row class1">
+  <figure>
+    <div class="col1">
+    <!-- <figcaption>This is me~</figcaption> -->
+    <img src="images/headshot.jpg" alt="My headshot" />
+    <a>Photo of me taken by Daniel Zhai at Peking Daxing International Airport. 2021</a>
+  </div>
+  </figure>
+    <div class="col1">
+   <h2>Hiii and Halo!!!</h2>
+     <p>I'm Weiyan Wu, a junior computer science student at Cornell University. I am a computer lover, space lover, and aerospace pursuer. I am always curious about problem solving, and fascinated with game design, software development, and data analysis. I like designing game during spare time using JavaScript and watching Harry Potter. I am a chatty girl so whatever topic just bring them to me. Feel free to contact me via ww333@cornell.edu.</p>
+     <p><strong>Objective now:</strong> Actively looking for an internship or research opportunities summer2022!</p>
+     <div class="icons_row">
+     <figure>
+       <img src="images/linkedin_icon.jpg" alt="My LinkedIn" class="center"/>
+       <div class="icon_col">
+       <a href="https://www.linkedin.com/in/weiyan-wu-261ba3204/">My LinkedIn</a>
+       </div>
+     </figure>
+     <figure>
+       <img src="images/github_link_icon.jpg" alt="My GitHub" class="center"/>
+       <div class="icon_col">
+       <a href="https://github.com">My GitHub</a>
+       </div>
+     </figure>
+   </div>
+    </div>
+  </div>
+
+  <div class="row class2">
+  <div class="sideleft">
+    <!-- <section class="Educational Experience"> -->
+    <h2>Educational Experience</h2>
+     <p>Cornell University, College of Engineering, Ithaca, NY, Expected May 2023</p>
+     <p>Bachelor of Science, Computer Science</p>
+     <p>Tsinghua University, College of Computer Science, Beijing, China, Sep.2020 - Jul.2021</p>
+     <p>Study-Away Program, Computer Science</p>
+   <!-- </section> -->
+
+   <!-- <section class="Professional Experience"> -->
+     <h2>Professional Experience</h2>
+     <p>Space Systems Design Studio, Cornell University, Software Engineer, Undergraduate Researcher</p>
+     <p>State Key Laboratory of Automotive Safety and Energy, Tsinghua University, Software Engineer, Data Analyst, Undergraduate Researcher</p>
+     <p>ITCCC Education Group, Beijing, China, Web Developer, Project Manager</p>
+   <!-- </section> -->
+</div>
+<div class="sideright">
+  <section class="contact information">
+    <h2>Contact Info</h2>
+    <ul>
+      <li>ww333@cornell.edu</li>
+      <li>+1 (607) 262-9585</li>
+    </ul>
+  </section>
+
+   <h2>Accomplishments</h2>
+     <ul>
+       <li>Dean’s List, Spring 2021</li>
+     </ul>
+
+   <section class="Skills">
+     <h2>Specialized Skills</h2>
+     <dl>
+       <dt>Programming Languages:</dt>
+       <dd>Java, Python, C++, OCAML, C, R, MATLAB, C#, JavaScript</dd>
+       <dt>Data Analysis:</dt>
+       <dd>Machine Learning, Data Visualization, SQL, Tableau</dd>
+       <dt>Others:</dt>
+       <dd>HTML, CSS, Verilog, iMovie, Unity, Unreal Engine, Excel, LaTeX</dd>
+     </dl>
+   </section>
+   </div>
+   </div>
+
+
+<!-- carousel design HTML -->
+<div class="carousel">
+
+
+  <div class="mainbody_carousel">
+
+
+<button type="button" class="buttons" id="left_button">Left</button>
+
+  <div class="slides">
+    <div class="slide" id="slide1">
+      <img src="images/headshot.jpg" alt="Slide 1"/>
+      <p class = "carousel_text">slides11111</p>
+    </div>
+
+  <!-- <img class="slide" id="slide1" src="images/linkedin_icon.jpg" alt="Slide 1"/> -->
+
+<div class="slide hidden" id="slide2">
+  <img src="images/headshot.jpg" alt="Slide 2"/>
+  <p class = "carousel_text">goood</p>
+</div>
+
+<div class="slide hidden" id="slide3">
+  <img src="images/headshot.jpg" alt="Slide 3"/>
+  <p class = "carousel_text">slides33333</p>
+</div>
+</div>
+
+  <button type="button" class="buttons" id="right_button">Right</button>
+
+  </div>
+
+<div class="row">
+  <button type="button" class = "dots dot_color" id="dot1"></button>
+  <button type="button" class = "dots" id="dot2"></button>
+  <button type="button" class = "dots" id="dot3"></button>
+</div>
+
+</div>
+
+
+
+<!-- The bottom navigation dots -->
+<!-- <div class="dots">
+  <span class="dots"></span>
+  <span class="dots"></span>
+  <span class="dots"></span>
+</div> -->
+<script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="scripts/carousel.js"></script>
+ </body>
+ </html>
