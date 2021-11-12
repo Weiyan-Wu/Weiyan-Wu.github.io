@@ -21,7 +21,6 @@
   <div class="row class1">
   <figure>
     <div class="col1">
-    <!-- <figcaption>This is me~</figcaption> -->
     <img src="images/headshot.jpg" alt="My headshot" />
     <a>Photo of me taken by Daniel Zhai at Peking Daxing International Airport. 2021</a>
   </div>
@@ -49,21 +48,19 @@
 
   <div class="row class2">
   <div class="sideleft">
-    <!-- <section class="Educational Experience"> -->
     <h2>Educational Experience</h2>
      <p>Cornell University, College of Engineering, Ithaca, NY, Expected May 2023</p>
      <p>Bachelor of Science, Computer Science</p>
      <p>Tsinghua University, College of Computer Science, Beijing, China, Sep.2020 - Jul.2021</p>
      <p>Study-Away Program, Computer Science</p>
-   <!-- </section> -->
 
-   <!-- <section class="Professional Experience"> -->
+
      <h2>Professional Experience</h2>
      <p>Space Systems Design Studio, Cornell University, Software Engineer, Undergraduate Researcher</p>
      <p>State Key Laboratory of Automotive Safety and Energy, Tsinghua University, Software Engineer, Data Analyst, Undergraduate Researcher</p>
      <p>ITCCC Education Group, Beijing, China, Web Developer, Project Manager</p>
-   <!-- </section> -->
 </div>
+
 <div class="sideright">
   <section class="contact information">
     <h2>Contact Info</h2>
@@ -94,38 +91,91 @@
 
 
 <!-- carousel design HTML -->
-<div class="carousel">
 
+<div class="carousel">
+<h2 class="carousel_h2">Personal Projects</h2>
 
   <div class="mainbody_carousel">
 
 
-<button type="button" class="buttons" id="left_button">Left</button>
+<button type="button" class="buttons" id="left_button">Prev</button>
 
   <div class="slides">
     <div class="slide" id="slide1">
-      <img src="images/headshot.jpg" alt="Slide 1"/>
-      <p class = "carousel_text">slides11111</p>
+      <div class="row">
+      <section>
+        <h4>CS: Ludo Strategy Board Game</h4>
+        <div class="col1">
+        <!-- Source: (original work) Weiyan Wu -->
+        <img src="images/cs1.png" class= "carousel_img" alt="Slide 1"/>
+        <a class="carousel_citation">Screenshot of my Ludo CS project. 2021</a>
+        </div>
+        <p class = "carousel_text"> Ludo Strategy Board Game is my web based strategy board game implemented with OCAML and Javascript. I have added timing, AI-vs-Human mode, and an interactive tutorial quiz to make the game more attractive.</p>
+        </section>
+        <section>
+          <h4>CS: Virtual Risc-V</h4>
+          <div class="col1">
+          <!-- Source: (original work) Weiyan Wu -->
+          <img src="images/cs2.png" class= "carousel_img" alt="Slide 1"/>
+          <a class="carousel_citation">Screenshot of my Risc-V CS project. 2021</a>
+          </div>
+          <p class = "carousel_text">Virtual Risc-V is my cs project which aims at simulated a Risc-V instruction set with C++. The simulated Risc-V could perform complicated mathematical calculations and even approximate Euler's number.</p>
+        </section>
+      </div>
     </div>
 
-  <!-- <img class="slide" id="slide1" src="images/linkedin_icon.jpg" alt="Slide 1"/> -->
-
 <div class="slide hidden" id="slide2">
-  <img src="images/headshot.jpg" alt="Slide 2"/>
-  <p class = "carousel_text">goood</p>
+  <div class="row">
+  <section>
+    <h4>Game: 7-Days Game</h4>
+    <div class="col1">
+      <!-- Source: (original work) Weiyan Wu -->
+    <img src="images/gm1.jpeg" class= "carousel_img" alt="Slide 2"/>
+    <a class="carousel_citation">Screenshot of my 7-Days game design. 2021</a>
+    </div>
+    <p class = "carousel_text">7-Days is my puzzle game made in Unity Engine, which is about a mental patient’s seven-day self-redemption process. Each day represents a game level. Players will advance the story development by solving puzzles in each level.</p>
+    </section>
+    <section>
+      <h4>Game: Lost In Maze</h4>
+      <div class="col1">
+      <!-- Source: (original work) Weiyan Wu -->
+      <img src="images/gm2.png" class= "carousel_img" alt="Slide 2"/>
+      <a class="carousel_citation">Screenshot of my Lost In Maze game design. 2021</a>
+      </div>
+      <p class = "carousel_text">Lost In Maze is my Virtual Reality game made in Unreal Engine. Players can play the game by wearing VR headset. To win the game, the player is transported to a 5-dimension world and need to light up all the targets in the maze.</p>
+    </section>
+  </div>
 </div>
 
 <div class="slide hidden" id="slide3">
-  <img src="images/headshot.jpg" alt="Slide 3"/>
-  <p class = "carousel_text">slides33333</p>
+  <div class="row">
+  <section>
+    <h4>Data: COVID-19 Transmission Prediction</h4>
+    <div class="col1">
+      <!-- Source: (original work) Weiyan Wu -->
+    <img src="images/dt1.png" class= "carousel_img" alt="Slide 3"/>
+    <a class="carousel_citation">Screenshot of my COVID-19 data science project. 2021</a>
+    </div>
+    <p class = "carousel_text"> COVID-19 Transmission and Prediction is my data science project which aims at predicting the COVID-19 Transmission. Data are both self collected and from Israeli Ministry of Health. The model accuracy has been improved from 84% to 96%.</p>
+    </section>
+    <section>
+      <h4>Data: Analysis of Airplane Delays</h4>
+      <div class="col1">
+        <!-- Source: (original work) Weiyan Wu -->
+      <img src="images/dt2.png" class= "carousel_img" alt="Slide 3"/>
+      <a class="carousel_citation">Screenshot of my Airplane Delays data science project. 2021</a>
+      </div>
+      <p class = "carousel_text">This is my data science project which built models in Python to investigate a dataset of 5,000,000 flight delays and cancellations during 2015 in the US. The model resulted in a prediction of more than 90% accuracy. </p>
+    </section>
+  </div>
 </div>
 </div>
 
-  <button type="button" class="buttons" id="right_button">Right</button>
+  <button type="button" class="buttons" id="right_button">Next</button>
 
   </div>
 
-<div class="row">
+<div class="row dot_section">
   <button type="button" class = "dots dot_color" id="dot1"></button>
   <button type="button" class = "dots" id="dot2"></button>
   <button type="button" class = "dots" id="dot3"></button>
@@ -133,14 +183,6 @@
 
 </div>
 
-
-
-<!-- The bottom navigation dots -->
-<!-- <div class="dots">
-  <span class="dots"></span>
-  <span class="dots"></span>
-  <span class="dots"></span>
-</div> -->
 <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
   <script type="text/javascript" src="scripts/carousel.js"></script>
  </body>
