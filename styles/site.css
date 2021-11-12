@@ -1,7 +1,6 @@
 body {
   background-color: #29333d;
   font-family: Trebuchet MS;
-
 }
 
 h1 {
@@ -10,24 +9,32 @@ h1 {
   font-size: 50pt;
   text-transform: capitalize;
   text-align:center
-
 }
 
 h2 {
   color: GreenYellow;
   font-family: Trebuchet MS;
-  font-size: 23pt;
+  font-size: 21pt;
   font-weight: bold;
 }
+
 h3 {
-  color: plum;
+  color: #d38ced;
   font-family: Trebuchet MS;
+}
+
+h4{
+  text-align: center;
+  padding: 12px 12px 12px 12px;
+  color: #d38ced;
+  font-size: 20px;
 }
 
 p {
   color: HoneyDew;
   font-family: Trebuchet MS;
   font-size: 14pt;
+  line-height: 1.5em;
 }
 
 li {
@@ -35,16 +42,18 @@ li {
   font-family: Trebuchet MS;
   list-style-type: square;
   font-size: 14pt;
+  line-height: 1.5em;
 }
+
 em {
-  font-style: normal; /* removes italics */
-  font-weight: bold; /* adds bold */
-  color: plum;
+  font-style: normal;
+  font-weight: bold;
+  color: #d38ced;
   font-family: Trebuchet MS;
 }
 
 p a{
-  color: plum;
+  color: #d38ced;
 }
 
 nav ul li {
@@ -65,38 +74,43 @@ nav{
 }
 
 figure img{
-  border-radius: 5px;
   border-radius: 12%;
+  align-items: center;
 }
+
 dt {
-  color: plum;
-  font-size: 12pt;
+  color: #d38ced;
+  font-size: 14pt;
 }
+
 dl {
   color : HoneyDew;
   font-size: 14pt;
+  line-height: 1.5em;
 }
+
 a:link {
   color: black;
   font-family: Trebuchet MS;
-
 }
+
 strong{
-  color: plum;
+  color: #d38ced;
   font-size: 14pt;
 }
 
-
 figure figcaption{
-  font-size: 20pt;
+  font-size: 21pt;
   color: GreenYellow;
   display: flex;
   flex-direction: column;
 }
+
 .row{
   display: flex;
   flex-direction: row;
 }
+
 .class1{
   display: flex;
   flex-direction: row;
@@ -104,6 +118,7 @@ figure figcaption{
   margin-right: 100px;
   margin-top: 70px;
 }
+
 .class2{
   display: flex;
   flex-direction: row;
@@ -111,29 +126,35 @@ figure figcaption{
   margin-right: 100px;
   margin-top: 0px;
 }
+
 .col1 {
   display: flex;
   flex-direction: column;
 }
+
 .icons_row{
   display: flex;
   flex-direction: row;
 }
+
 .sideleft{
   float: left;
   padding: 20px;
   margin: 40px;
 }
+
 .sideright{
   float: right;
   padding: 20px;
   margin: 40px;
 }
+
 figure a{
   font-size: 10pt;
   color: Lavender;
   text-align:center;
 }
+
 .col_p{
   display: flex;
   flex-direction: column;
@@ -141,35 +162,39 @@ figure a{
   margin-right: 150px;
   margin-top: 30px;
   padding: 20px;
-
 }
+
 li a{
   color: DarkSlateBlue;
   background-color: #d2b2e0;
-  /* font-weight: bold; */
 }
+
 .sideleft_a{
   float: left;
   padding: 50px;
   margin: 90px;
 }
+
 .sideright_a{
   float: right;
   padding: 50px;
   margin: 90px;
 }
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
 }
+
 .center_cv {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 .center_200 {
   display: block;
   margin-left: auto;
@@ -179,18 +204,23 @@ li a{
 
 
 /* carousel design CSS */
+section {
+  display: inline;
+  justify-content: center;
+}
 
 .hidden {
   display: none
 }
 .carousel{
-  /* position: relative; */
   height: 600px;
-  width: 50%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+  margin-top: 75px;
+  margin-bottom: 150px;
 }
 .mainbody_carousel{
   display: flex;
@@ -200,68 +230,81 @@ li a{
   width: auto;
   justify-content: center;
 }
-.slide{
-  border-radius:10px;
-  margin: 10px;
-}
 
 .buttons{
-  color: white;
-  background-color: #008484;
+  color: HoneyDew;
+  font-size: 14px;
+  background-color: #d38ced;
   font-variant: all-small-caps;
+  font-weight: bold;
   letter-spacing: 2px;
-  padding: 5px 20px;
-  /* padding: inherit; */
+  padding: 7px 25px;
   border-radius: 4px;
-  border: 2px solid #008484;
+  border: 2px solid #d38ced;
   cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 button:hover {
-  color: #008484;
-  background-color: white;
-  border: 2px solid #008484;
+  color: #d38ced;
+  background-color: HoneyDew;
+  font-weight: bold;
+  border: 2px solid #d38ced;
 }
+
 .dots{
-  background-color: black;
+  background-color: HoneyDew;
   width: 50px;
   height: 50px;
   border-radius: 40px;
   position: relative;
   cursor: pointer;
-  border: 2px transparent;
-
-  /* margin-left: 60px;
-  margin-right: 60px; */
+  border: 12px solid #29333d;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
 }
+
 .dots:hover{
-  /* color: #008484; */
   background-color: transparent;
-  border: 10px solid #008484;
+  border: 12px solid #d38ced;
 }
 
 .dot_color{
-  background-color: HoneyDew;
-  border: 2px solid HoneyDew;
+  background-color: #d38ced;
+  border: 12px solid #d38ced;
+}
+.dot_section{
+  margin-left: 35%;
+  margin-right: 35%;
+  justify-content: center;
 }
 
-.left_button{
-  left: -40px;
+.carousel_img{
+  display: block;
+  width: auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
 }
 
-.right_button{
-  right: -40px;
+.carousel_text{
+  float: left;
+  padding: 10px 20px 20px 20px;
+  justify-content: center;
+  font-size: 12pt;
+  text-align: center;
 }
-/* button {
-  color: white;
-  background-color: #008484;
-  font-variant: all-small-caps;
-  letter-spacing: 2px;
-  padding: 5px 20px;
-  border-radius: 4px;
-  border: 2px solid #008484;
-  cursor: pointer;
-} */
+
+.carousel_h2{
+  text-align: center;
+}
+
+.carousel_citation{
+  font-size: 8pt;
+  color: Lavender;
+  text-align:center;
+  margin-top: 5px;
+}

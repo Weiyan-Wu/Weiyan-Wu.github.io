@@ -1,6 +1,5 @@
 const SLIDES = $(".slide");
 
-
 function nextSlide() {
   let nextNum = SLIDES.index($(".slide:not(.hidden)")) + 1 + 1; /* +1 for 0-index array */
   if (nextNum > SLIDES.length) {
@@ -21,7 +20,6 @@ function showSlide(num) {
   let index = num - 1;
   let currentSlide = SLIDES.eq(index);
 
-  /* TODO: snippets to hide SLIDES and then show currentSlide */
   SLIDES.addClass("hidden");
   currentSlide.removeClass("hidden");
 
@@ -30,9 +28,8 @@ function showSlide(num) {
   DOTS.removeClass("dot_color");
   currentDot.addClass("dot_color");
 
-
-
 }
+
 $("#dot1").click(function() {
   showSlide(1);
 });
@@ -44,11 +41,9 @@ $("#dot3").click(function() {
 });
 
 $("#left_button").click(function() {
-  console.log("left button clicked!");
   prevSlide();
 });
 
 $("#right_button").click(function() {
-  console.log("right button clicked!");
   nextSlide();
 });
